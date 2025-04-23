@@ -21,3 +21,4 @@ var apiService = builder.AddProject<Projects.Thunders_TechTest_ApiService>("apis
     .WaitFor(database);
 
 builder.Build().Run();
+
